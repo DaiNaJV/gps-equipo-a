@@ -1,0 +1,202 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Casos de uso" id="cu">
+    <mxGraphModel dx="1471" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys" parent="1" style="rounded=0;whiteSpace=wrap;verticalAlign=bottom;fontStyle=1;fillColor=#fbfbfb;" value="Sistema de Control Escolar de Servicio Social y Residencia Profesional" vertex="1">
+          <mxGeometry height="1070" width="940" x="270" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nota" parent="1" style="text;whiteSpace=wrap;fontStyle=2;fontSize=10;" value="Nota: todos los casos de uso de Alumno, Administrador, Jefe y Asesores requieren haber iniciado sesión." vertex="1">
+          <mxGeometry height="40" width="330" x="640" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="vis" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;" value="Visitante" vertex="1">
+          <mxGeometry height="60" width="30" x="75" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mail" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;" value="Servidor de correo&#xa;&lt;&lt;sistema&gt;&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="75" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="alu" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;" value="Alumno" vertex="1">
+          <mxGeometry height="60" width="30" x="75" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="adm" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;" value="Administrador&#xa;(Depto. de Residencias)" vertex="1">
+          <mxGeometry height="60" width="30" x="1395" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jef" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;" value="Jefe de Carrera" vertex="1">
+          <mxGeometry height="60" width="30" x="1395" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="aca" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;" value="Asesor Académico" vertex="1">
+          <mxGeometry height="60" width="30" x="1395" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="ind" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;" value="Asesor Industrial" vertex="1">
+          <mxGeometry height="60" width="30" x="1395" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="cu01" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Consultar información&#xa;de residencia" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="53" as="geometry" />
+        </mxCell>
+        <mxCell id="cu02" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Crear cuenta" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="123" as="geometry" />
+        </mxCell>
+        <mxCell id="cu03" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Iniciar sesión" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="cu04" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Recuperar contraseña" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="263" as="geometry" />
+        </mxCell>
+        <mxCell id="cu05" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Enviar solicitud de&#xa;residencia" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Inscribirse a una empresa&#xa;del catálogo" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="473" as="geometry" />
+        </mxCell>
+        <mxCell id="cu07" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Consultar mi horario" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="543" as="geometry" />
+        </mxCell>
+        <mxCell id="cu08" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Subir documentos del&#xa;expediente (PDF)" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="cu09" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Subir reportes&#xa;parciales (PDF)" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="683" as="geometry" />
+        </mxCell>
+        <mxCell id="cu10" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Agendar visita a&#xa;empresa" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="753" as="geometry" />
+        </mxCell>
+        <mxCell id="cu11" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Solicitar constancia&#xa;de liberación" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="823" as="geometry" />
+        </mxCell>
+        <mxCell id="cu12" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Revisar solicitudes&#xa;de residencia" vertex="1">
+          <mxGeometry height="54" width="230" x="915" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Generar carta de&#xa;presentación" vertex="1">
+          <mxGeometry height="54" width="230" x="615" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="cu14" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Gestionar usuarios" vertex="1">
+          <mxGeometry height="54" width="230" x="915" y="123" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Importar usuarios&#xa;desde Excel" vertex="1">
+          <mxGeometry height="54" width="230" x="615" y="123" as="geometry" />
+        </mxCell>
+        <mxCell id="cu16" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Gestionar catálogo de&#xa;empresas y horarios" vertex="1">
+          <mxGeometry height="54" width="230" x="915" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="cu17" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Gestionar carreras" vertex="1">
+          <mxGeometry height="54" width="230" x="915" y="283" as="geometry" />
+        </mxCell>
+        <mxCell id="cu18" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Actualizar información&#xa;de residencia" vertex="1">
+          <mxGeometry height="54" width="230" x="915" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="cu19" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Generar constancia&#xa;de liberación" vertex="1">
+          <mxGeometry height="54" width="230" x="915" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="cu20" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Consultar carpeta&#xa;del alumno" vertex="1">
+          <mxGeometry height="54" width="230" x="915" y="543" as="geometry" />
+        </mxCell>
+        <mxCell id="cu21" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Marcar evaluaciones&#xa;como revisadas" vertex="1">
+          <mxGeometry height="54" width="230" x="915" y="633" as="geometry" />
+        </mxCell>
+        <mxCell id="cu22" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Evaluar reportes&#xa;parciales" vertex="1">
+          <mxGeometry height="54" width="230" x="915" y="733" as="geometry" />
+        </mxCell>
+        <mxCell id="cu23" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Confirmar o negar&#xa;visita" vertex="1">
+          <mxGeometry height="54" width="230" x="915" y="833" as="geometry" />
+        </mxCell>
+        <mxCell id="cu24" parent="1" style="ellipse;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Comentar observaciones&#xa;de un documento" vertex="1">
+          <mxGeometry height="54" width="230" x="315" y="938" as="geometry" />
+        </mxCell>
+        <mxCell id="a0" edge="1" parent="1" source="vis" style="endArrow=none;html=0;" target="cu01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" edge="1" parent="1" source="vis" style="endArrow=none;html=0;" target="cu02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" source="vis" style="endArrow=none;html=0;" target="cu03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" edge="1" parent="1" source="vis" style="endArrow=none;html=0;" target="cu04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" edge="1" parent="1" source="mail" style="endArrow=none;html=0;" target="cu04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" edge="1" parent="1" source="alu" style="endArrow=none;html=0;" target="cu05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" edge="1" parent="1" source="alu" style="endArrow=none;html=0;" target="cu06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" edge="1" parent="1" source="alu" style="endArrow=none;html=0;" target="cu07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" edge="1" parent="1" source="alu" style="endArrow=none;html=0;" target="cu08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" edge="1" parent="1" source="alu" style="endArrow=none;html=0;" target="cu09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a10" edge="1" parent="1" source="alu" style="endArrow=none;html=0;" target="cu10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a11" edge="1" parent="1" source="alu" style="endArrow=none;html=0;" target="cu11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a12" edge="1" parent="1" source="alu" style="endArrow=none;html=0;" target="cu24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a13" edge="1" parent="1" source="adm" style="endArrow=none;html=0;" target="cu12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a14" edge="1" parent="1" source="adm" style="endArrow=none;html=0;" target="cu14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a15" edge="1" parent="1" source="adm" style="endArrow=none;html=0;" target="cu16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a16" edge="1" parent="1" source="adm" style="endArrow=none;html=0;" target="cu17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a17" edge="1" parent="1" source="adm" style="endArrow=none;html=0;" target="cu18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a18" edge="1" parent="1" source="adm" style="endArrow=none;html=0;" target="cu19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a19" edge="1" parent="1" source="adm" style="endArrow=none;html=0;" target="cu20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a20" edge="1" parent="1" source="adm" style="endArrow=none;html=0;" target="cu21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a21" edge="1" parent="1" source="jef" style="endArrow=none;html=0;" target="cu20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a22" edge="1" parent="1" source="jef" style="endArrow=none;html=0;" target="cu21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a23" edge="1" parent="1" source="aca" style="endArrow=none;html=0;" target="cu22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a24" edge="1" parent="1" source="aca" style="endArrow=none;html=0;" target="cu23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a25" edge="1" parent="1" source="aca" style="endArrow=none;html=0;" target="cu24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a26" edge="1" parent="1" source="ind" style="endArrow=none;html=0;" target="cu22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a27" edge="1" parent="1" source="ind" style="endArrow=none;html=0;" target="cu23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a28" edge="1" parent="1" source="ind" style="endArrow=none;html=0;" target="cu24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0" edge="1" parent="1" source="cu13" style="endArrow=open;dashed=1;html=0;fontSize=10;" target="cu12" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="cu15" style="endArrow=open;dashed=1;html=0;fontSize=10;" target="cu14" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
